@@ -241,7 +241,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   margin: auto;
   height: 1000px;
 }
-
+/*profiel foto */
+.images{
+  width:445px;
+  height:554px;
+}
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -428,12 +432,21 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 .carousel-inner {
     width: 100%;
-    height:975px;
 }
 .img-home-slide{
    /* Background-size:cover !Important; */
     width: 100%;
-    height:975px;
+    max-height:966px;
+    background-size: cover;
 }
 
 /* Einde fullpage slider */
+
+
+/*profiel foto kleiner */
+@media screen and (max-width:550px) and (min-width: 280px){
+  .images{
+     width: 200px;
+     height: 250px;
+  }
+}

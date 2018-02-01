@@ -1,0 +1,36 @@
+#bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vlag {
+
+    font-family: sans-serif;
+	color: white;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: 200px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.flag {
+
+    font-family: sans-serif;
+	color: white;
+    left: 0;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
